@@ -35,7 +35,7 @@ public class Slot {
     }
 
     public boolean isEmpty() {
-        return vehicle != null;
+        return vehicle == null;
     }
 
     @Override

@@ -50,12 +50,12 @@ public class CommandLineInputProcessor implements InputProcessor {
         } else if ("free_slots".equals(displayType)) {
             for (ParkingFloor floor : parkingLot.getParkingFloors()) {
                 String result = floor.getFreeSlotIds(vehicleType);
-                responses.add(String.format("No. of free slots for %s on Floor %s: %s", vehicleType, floor.getId(), result));
+                responses.add(String.format("Free slots for %s on Floor %s: %s", vehicleType, floor.getId(), result));
             }
         } else if ("occupied_slots".equals(displayType)) {
             for (ParkingFloor floor : parkingLot.getParkingFloors()) {
                 String result = floor.getOccupiedSlotIds(vehicleType);
-                responses.add(String.format("No. of free slots for %s on Floor %s: %s", vehicleType, floor.getId(), result));
+                responses.add(String.format("Occupied slots for %s on Floor %s: %s", vehicleType, floor.getId(), result));
             }
         }
         return responses.stream().collect(Collectors.joining("\n"));
@@ -80,7 +80,7 @@ public class CommandLineInputProcessor implements InputProcessor {
                 result = create_parking_lot(input[1], Integer.valueOf(input[2]), Integer.valueOf(input[3]));
                 break;
             case "park_vehicle":
-                result = park_vehicle(input[1], input[2], input[2]);
+                result = park_vehicle(input[1], input[2], input[3]);
                 break;
             case "unpark_vehicle":
                 result = unpark_vehicle(input[1]);
