@@ -4,7 +4,7 @@ CLI interface
 ParkingLot: id, floors, per floor slots(1 truck, 2 bikes, remaining cars)
 Ticket: id(based on the formulamentioned in requirements)
 Vehicle: type, registrationNumber, color
-
+``
 APIs:
 FindSlot, BookSlot,createTicket, parkVehicle, return ticket, unpark(ticketId)
 numberOfFreeSlotsPerFloor
