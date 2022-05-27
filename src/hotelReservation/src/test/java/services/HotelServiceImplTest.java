@@ -1,10 +1,11 @@
-package hotelreservation.src.test.java.services;
+package hotelReservation.src.test.java.services;
 
-import exceptions.HotelSpaceFullException;
-import exceptions.InvalidHotelRoomException;
-import hotelreservation.src.main.java.services.HotelServiceImpl;
-import models.BookingOrder;
-import models.Hotel;
+import hotelReservation.src.main.java.exceptions.HotelSpaceFullException;
+import hotelReservation.src.main.java.exceptions.InvalidHotelRoomException;
+import hotelReservation.src.main.java.models.BookingOrder;
+import hotelReservation.src.main.java.models.Hotel;
+import hotelReservation.src.main.java.services.HotelService;
+import hotelReservation.src.main.java.services.HotelServiceImpl;
 import org.junit.Test;
 
 import java.util.Arrays;

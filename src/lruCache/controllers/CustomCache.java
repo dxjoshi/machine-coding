@@ -1,7 +1,8 @@
 package lruCache.controllers;
 
-import models.Value;
-import services.Cache;
+
+import lruCache.models.Value;
+import lruCache.services.Cache;
 
 import java.util.*;
 

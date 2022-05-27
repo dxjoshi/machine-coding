@@ -1,11 +1,8 @@
-package hotelreservation.src.main.java.services;
+package hotelReservation.src.main.java.services;
 
-import hotelreservation.src.main.java.exceptions.HotelSpaceFullException;
-import hotelreservation.src.main.java.exceptions.InvalidHotelRoomException;
-import models.BookingOrder;
-import models.Hotel;
-import models.HotelFloor;
-import models.Room;
+import hotelReservation.src.main.java.exceptions.HotelSpaceFullException;
+import hotelReservation.src.main.java.exceptions.InvalidHotelRoomException;
+import hotelReservation.src.main.java.models.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;

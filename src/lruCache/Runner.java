@@ -1,8 +1,9 @@
 package lruCache;
 
-import controllers.InputProcessorImpl;
-import controllers.StdOutPrinter;
-import services.InputProcessor;
+
+import lruCache.controllers.InputProcessorImpl;
+import lruCache.controllers.StdOutPrinter;
+import lruCache.services.InputProcessor;
 
 public class Runner {
     public static void main(String[] args) {

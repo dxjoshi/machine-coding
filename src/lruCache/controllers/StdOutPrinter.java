@@ -1,6 +1,7 @@
 package lruCache.controllers;
 
-import services.Printer;
+
+import lruCache.services.Printer;
 
 public class StdOutPrinter implements Printer {
     @Override

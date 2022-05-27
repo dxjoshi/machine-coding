@@ -1,4 +1,4 @@
-package hotelreservation.src.main.java.services;
+package hotelReservation.src.main.java.services;
 
 import java.util.List;
 

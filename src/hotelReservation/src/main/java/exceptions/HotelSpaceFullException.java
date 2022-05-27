@@ -1,4 +1,4 @@
-package hotelreservation.src.main.java.exceptions;
+package hotelReservation.src.main.java.exceptions;
 
 public class HotelSpaceFullException extends RuntimeException {
 

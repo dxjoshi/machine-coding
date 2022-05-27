@@ -1,9 +1,10 @@
-package hotelreservation.src.main.java;
+package hotelReservation.src.main.java;
 
-import models.BookingOrder;
-import models.Hotel;
-import services.HotelService;
-import services.HotelServiceImpl;
+
+import hotelReservation.src.main.java.models.BookingOrder;
+import hotelReservation.src.main.java.models.Hotel;
+import hotelReservation.src.main.java.services.HotelService;
+import hotelReservation.src.main.java.services.HotelServiceImpl;
 
 public class HotelMain {
 

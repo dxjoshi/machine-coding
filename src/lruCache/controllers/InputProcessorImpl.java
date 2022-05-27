@@ -1,8 +1,9 @@
 package lruCache.controllers;
 
-import services.Cache;
-import services.InputProcessor;
-import services.Printer;
+
+import lruCache.services.Cache;
+import lruCache.services.InputProcessor;
+import lruCache.services.Printer;
 
 import java.util.Scanner;
 

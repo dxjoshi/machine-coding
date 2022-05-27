@@ -1,4 +1,4 @@
-package hotelreservation.src.main.java.models;
+package hotelReservation.src.main.java.models;
 
 public enum  BookingOrder {
 
